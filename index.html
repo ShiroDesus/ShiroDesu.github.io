@@ -54,8 +54,8 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">I'm Shunn Rojas.</h1>
-            <h3> Let's <a class="smoothscroll" href="#about">start scrolling</a>
-            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <h3> Let's start scrolling</a>
+            and learn more about me</a>.</h3>
             <hr />
             <ul class="social">
                <ul>
@@ -69,7 +69,6 @@
                         <i class="fa">X</i>
                      </a>
                   </li>
-                  
                   <li>
                      <a href="https://www.linkedin.com/in/shunn-joshua-rojas-9462b52a9/" target="_blank">
                         <i class="fa fa-linkedin"></i>
@@ -80,9 +79,14 @@
                         <i class="fa fa-instagram"></i>
                      </a>
                   </li>
+                  <li>
+                     <a href="https://www.threads.net/@shinro._1443" target="_blank">
+                        <i class="fa">@</i> 
+                     </a>
+                  </li>
                </ul>
-               
-         </div>
+            </ul>
+            
       </div>
 
       <p class="scrolldown">
@@ -108,7 +112,7 @@
 
             <h2>About Me</h2>
 
-            <p>My name is Shunn Joshua C. Rojas and I live in Phase 2, Block 20, Lot 19, Agan Land, Katangawan, General Santos City.
+            <p>My  name is Shunn Joshua C. Rojas and I live in Phase 2, Block 20, Lot 19, Agan Land, Katangawan, General Santos City.
             </p>
 
             <div class="row">
@@ -129,8 +133,25 @@
 
                <div class="columns download">
                   <p>
-                     <a href="file/shunn joshua rojas (1).pdf" class="button" download="Shunn_Joshua_Rojas_Resume.pdf">
-                        <i class="fa fa-arrow-right"></i> Check My Resume
+                      <a href="file/shunn joshua rojas (1).pdf" class="button" download="shunn joshua rojas (1).pdf">
+                          <i class="fa fa-arrow-right"></i> Check My Resume
+                      </a>
+                  </p>
+              </div>
+
+              <div class="columns download">
+               <p>
+                   <a href="mailto:samaex143rojas@gmail.com" id="hire-me-button" class="button" onclick="return confirmEmail();">
+                       <i class="fa fa-envelope"></i> Hire Me
+                   </a>
+               </p>
+           </div>
+           
+                   </a>
+               </p>
+           </div>
+           
+              
                      </a>
                   </p>
                </div>               
@@ -239,7 +260,7 @@
             <div class="row item">
 
                <div class="twelve columns">
-                  <p class="info"> <b>Playing games <br> Listening to music <br> Reading books <br> Playing sports </b></em></p>
+                  <p class="info">  <b>Playing games <br> Listening to music <br> Reading books <br> Playing sports </b></em></p>
 
                </div>
 
@@ -257,12 +278,12 @@
 
       </div> <!-- End Work -->
 
-<!-- Certificate
+<!-- Achievements
 ----------------------------------------------- -->
 <div class="row education">
 
    <div class="three columns header-col">
-      <h1><span>Certificate</span></h1>
+      <h1><span>Achievements</span></h1>
    </div>
 
    <div class="nine columns main-col">
@@ -309,6 +330,16 @@
                </a>
             </p>
          </div>
+
+      </div> <!-- item end -->      <div class="row item">
+         <div class="twelve columns">
+            <h3>Campus DevCon 2023 </h3>
+            <p class="info">
+               <a href="file\Rojas (1).png" target="_blank">
+                  Campus DevCon 2023 Certificate of Participation - Shunn Joshua C. Rojas.pdf
+               </a>
+            </p>
+         </div>
       </div> <!-- item end -->
 
    </div> <!-- main-col end -->
@@ -341,6 +372,135 @@
    </div> <!-- right-col end -->
 </div> <!-- End skills -->
 
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+      <div class="row section-head">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get In Touch.</span></h1>
+
+         </div>
+
+
+
+      </div>
+
+      <div class="row">
+
+         <div class="eight columns">
+
+            <!-- form -->
+            <form action="" method="post" id="contactForm" name="contactForm">
+            <fieldset>
+
+               <div>
+                  <label for="contactName">Name <span class="required">*</span></label>
+                  <input type="text" value="" size="35" id="contactName" name="contactName">
+               </div>
+
+               <div>
+                  <label for="contactEmail">Email <span class="required">*</span></label>
+                  <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+               </div>
+
+               <div>
+                  <label for="contactSubject">Subject</label>
+                  <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+               </div>
+
+               <div>
+                  <label for="contactMessage">Message <span class="required">*</span></label>
+                  <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+               </div>
+
+               <div>
+                  <button class="submit">Submit</button>
+                  <span id="image-loader">
+                     <img alt="" src="images/loader.gif">
+                  </span>
+               </div>
+
+            </fieldset>
+            </form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning"> Error boy</div>
+            <!-- contact-success -->
+            <div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+            </div>
+
+         </div>
+
+
+         <aside class="four columns footer-widgets">
+
+            <div class="widget widget_contact">
+
+               <h4>Address and Phone</h4>
+               <p class="address">
+                  Shunn Joshua C. Rojas<br>
+                  Phase 2, Block 20, Lot 19, Agan Land <br>
+                  Katangawan, General Santos City<br>
+                  <span>+63 9530850448</span>
+                  <span>samaex143rojas@gmail.com</span>
+               </p>
+
+            </div>
+
+         </aside>
+
+   </div>
+
+</section> <!-- Contact Section End-->
+
+ <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+                  <li>
+                     <a href="https://www.facebook.com/shunnjoshua.rojas.5" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://x.com/Shiro1443" target="_blank">
+                        <i class="fa">X</i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.linkedin.com/in/shunn-joshua-rojas-9462b52a9/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.instagram.com/shinro._1443/" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.threads.net/@shinro._1443" target="_blank">
+                        <i class="fa">@</i> 
+                     </a>
+                  </li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
 
    </section> <!-- Resume Section End-->
    <script>
@@ -375,6 +535,17 @@
       });
       </script>
       
+      <script>
+         function confirmEmail() {
+             var confirmation = confirm('Are you sure you want to send this inquiry email to samaex143rojas@gmail.com?');
+             if (confirmation) {
+                 // Simulate the email sending action here if necessary
+                 return true; // Proceed with the link's default action (email sending)
+             }
+             return false; // Cancel the default action if the user clicks "Cancel"
+         }
+     </script>
+
 
    <!-- Java Script
    ================================================== -->
